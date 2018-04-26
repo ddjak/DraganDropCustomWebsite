@@ -1,0 +1,236 @@
+body {
+  	padding-top: 70px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	background: linear-gradient(to bottom right, purple, #00bc8c);
+}
+
+#contact {
+	background: linear-gradient(to bottom right, #000000, #434343);
+}
+
+.navbar.navbar-inverse {
+  border: none;
+  opacity:.6;
+  padding:2%;
+  background-color: transparent;      /*Figure how to make only background color transparent
+  background: transparent;				find out why the text on front page is smaller for whatever reason
+  border-color: transparent;*/
+}
+.navbar .navbar-brand {
+  padding-top: 0px;
+  opacity: 1;
+}
+.navbar .navbar-brand img {
+  height: 45px;
+}
+.btn {
+	background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    font-size: 11px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 50px;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    font-weight: bold;
+}
+
+a {
+	color:#FFFFF0;
+}
+
+a:hover {
+	color:navy;
+	text-decoration:none;
+}
+
+.btn:hover {
+	color:yellow;
+	background: linear-gradient(to bottom right, purple, red);
+}
+
+
+.jumbotron {
+  background: #000000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #000000, #434343); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #000000, #434343); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #000000, #434343); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #000000, #434343); /* Standard syntax */
+  color: #FFFFF0;
+   transform: translateY(-20%);
+   padding: 15%;
+   margin-bottom:auto;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.slideshowGif {
+	width:120%;
+	margin-bottom:-200px;
+}
+
+h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-shadow: 4px 2px black;
+	color: #FFFFF0;
+}
+/* FIGURE OUT HOW TO MAKE BACKGROUND COLOR OF DROPDOWN TO ONLY SHOW WHEN CLICKED
+
+	ALSO CHANGE BG COLOR OF LINKS IN NAVBAR
+.navbar-collapse {
+	background: linear-gradient(to bottom right, #000000, #434343);
+}*/
+
+
+.pic-footer {
+	width:20%;
+}
+
+footer{
+	border-top: 1px solid;
+	padding:1%;
+	background: linear-gradient(to bottom right, #00bc8c, purple);
+	/*position: relative;*/
+	bottom: 0px;
+	width:100%;
+}
+
+#form
+{
+	position: relative;
+	width: 40%;
+	height: 60%;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom:60px;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 15px;
+	border: 1px solid #00bc8c;
+}
+select {
+	width:100%;
+	padding:10px;
+}
+#header
+{
+	font-size:56px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #00bc8c;
+	text-shadow: 1px 4px 1px black, 0 0 5px black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+label
+{
+	color: white;
+}
+#submit
+{
+	margin-top: 30px;
+	font-weight: bold;
+	width: 100%;
+
+}
+
+.wrap {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #FFFFF0;
+}
+
+.row {
+	padding:10px;
+}
+
+.learnMoreLink {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-shadow: 1px 1px black;
+	color: orange;
+}
+.learnMoreLink:hover {
+	color: purple;
+}
+
+textarea {
+	width:100%;
+	margin-top:20px;
+}
+
+.packageButton {
+	margin:15px;
+}
+
+@media screen and (max-width:640px) {  
+  .slideshowGif {
+    display: none;
+  }
+  body {
+  	text-align: center;
+  }
+  #form {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom:60px;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 15px;
+	border: 1px solid #00bc8c;
+	text-align:left;
+	}
+	.navbar {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	  #form {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	background-color: rgba(0,0,0,0.4);
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom:60px;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 15px;
+	border: 1px solid #00bc8c;
+	text-align:left;
+	}
+	.packageButtons {
+		margin-right:20px;
+		margin-left:-20px;
+	}
+	.text-col {
+		margin-top:70px;
+	}
+}
+
+
+@media screen and (max-width:990px) {
+	.packageButtons {
+			margin-right:20px;
+			margin-left:-20px;
+		}
+		.text-col {
+			margin-top:70px;
+		}
+}

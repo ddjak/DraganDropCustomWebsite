@@ -1,0 +1,75 @@
+.title {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	padding:2%;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.signIn {
+	border: solid black 1px;
+	padding:5%;
+}
+
+.form {
+	text-align: center;
+}
+
+input {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.exitRegister {
+	border:solid transparent 1px;
+	border-radius: 5px;
+	margin:100%;
+	padding: 5%;
+	text-align:center;
+	background-color:#C0C0C0;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-default {
+	padding:10px;
+	border-radius: 5px;
+	
+}
+
+.buttonBanner {
+	padding:10px;
+}
+
+.signInBlock, .registerBlock {
+	border:solid black 1px;
+	border-radius:10px;
+	/*background: linear-gradient(to bottom right, blue, white);*/
+
+}
+
+.fa-bell {
+	cursor: pointer;
+}
+
+.fa-paper-plane {
+	cursor: pointer;
+}
+
+.notifications {
+	padding:10px;
+	text-align:center;
+}
+
+.notificationsHeader {
+	font-size:20px;
+}
+
+.alert {
+	text-align:center;
+}
